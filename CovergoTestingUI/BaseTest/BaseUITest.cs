@@ -26,7 +26,7 @@ namespace Covergo.Testing.UI.BaseTest
         {
             browser = await new BrowserWrapper().InitBrowser(EBrowserType.Chrome);
             page = await browser.NewPageAsync();
-            await page.GotoAsync("https://www.globalsqa.com");
+            await page.GotoAsync("https://www.globalsqa.com/demo-site/accordion-and-tabs/");
         }
 
         [TearDown]

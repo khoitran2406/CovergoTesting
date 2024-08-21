@@ -15,7 +15,6 @@ namespace Covergo.Testing.UI.SimpleAccordian
                 " Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh." +
                 " Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada." +
                 " Vestibulum a velit eu ante scelerisque vulputate.";
-            await page.GotoAsync("https://www.globalsqa.com/");
             await accordionAndTabsPage.ExpandSection1();
             await accordionAndTabsPage.VerifySection1Content(section1Content);
         }
