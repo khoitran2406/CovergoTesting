@@ -30,9 +30,9 @@ namespace Covergo.Testing.UI.BaseTest
         }
 
         [TearDown]
-        public void TestCleanup()
+        public async Task TestCleanup()
         {
-
+            await browser.CloseAsync();
         }
     }
 }

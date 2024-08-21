@@ -6,12 +6,10 @@ namespace Covergo.Core
     public class Keywords
     {
         private readonly IPage _page;
-        private readonly Assert assert;
 
         public Keywords(IPage page)
         {
             _page = page;
-            assert = new Assert();
         }
 
         public async Task<string?> GetAttribute(string locator, string attribute)
