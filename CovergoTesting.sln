@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Covergo.Testing.UI", "CovergoTestingUI\Covergo.Testing.UI.csproj", "{C4E2A836-2415-4E49-9C0E-68AC90876138}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covergo.Pages", "Covergo.Pages\Covergo.Pages.csproj", "{6052C501-0461-49BF-B377-906EC9121382}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covergo.Core", "Covergo.Core\Covergo.Core.csproj", "{8B8EC567-C535-4DA9-AD37-668ACC4360F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4E2A836-2415-4E49-9C0E-68AC90876138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E2A836-2415-4E49-9C0E-68AC90876138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E2A836-2415-4E49-9C0E-68AC90876138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E2A836-2415-4E49-9C0E-68AC90876138}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6052C501-0461-49BF-B377-906EC9121382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6052C501-0461-49BF-B377-906EC9121382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6052C501-0461-49BF-B377-906EC9121382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6052C501-0461-49BF-B377-906EC9121382}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B8EC567-C535-4DA9-AD37-668ACC4360F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B8EC567-C535-4DA9-AD37-668ACC4360F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B8EC567-C535-4DA9-AD37-668ACC4360F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B8EC567-C535-4DA9-AD37-668ACC4360F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39B31EE0-A9A3-4BC8-BBE1-A9A1786B340D}
+	EndGlobalSection
+EndGlobal
